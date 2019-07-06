@@ -168,5 +168,8 @@
         "@babel/plugin-proposal-class-properties"
       ]
     ]
+  },
+  "dependencies": {
+    "antd": "^3.20.0"
   }
 }

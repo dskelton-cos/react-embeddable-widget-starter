@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './css/App.css'
-
+import Button from 'antd/es/button'
 class App extends Component {
   constructor(props) {
     super(props)
@@ -11,7 +11,7 @@ class App extends Component {
     return (
       <div className="reactWidget__secondary_container">
         <div id="demo-widget">
-          <span className="top" />
+          <Button type="primary">Button</Button>
         </div>
       </div>
     )
